@@ -248,6 +248,7 @@ main > section:nth-child(even) {
 footer {
     background-color: var(--color-black);
     padding: 40px 0;
+    gap: 20px;
 }
 /* top + bottom footer */
 #footer-bottom, #footer-top {
@@ -278,4 +279,10 @@ footer {
 }
 .footer-nav ul li {
     padding: 4px 0;
+}
+
+/* footer-bottom */
+#footer-bottom {
+    padding: 12px 0;
+    border-top: 1px solid var(--color-grey);
 }
