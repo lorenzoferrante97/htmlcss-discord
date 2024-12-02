@@ -156,15 +156,9 @@ html {
 
 /* --- codice temporaneo per esercizio --- */
 
-/* header + bottom footer */
-#footer-bottom, #footer-top {
-    background-color: bisque;
-    width: 80%;
-}
 #footer-top > div {
     flex-basis: 12%;
-    height: 48px;
-    background-color: blueviolet;
+    
 }
 #footer-top .first {
     flex-basis: 24%;
@@ -253,4 +247,8 @@ main > section:nth-child(even) {
 footer {
     background-color: var(--color-black);
     padding: 40px 0;
+}
+/* top + bottom footer */
+#footer-bottom, #footer-top {
+    width: 80%;
 }
