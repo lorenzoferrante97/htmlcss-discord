@@ -38,13 +38,13 @@ header, #footer-bottom, #footer-top {
 }
 .logo-box, .btn-box {
     flex-basis: 120px;
-    height: 48px;
-    background-color: blue;
+    /* height: 48px; */
+    /* background-color: blue; */
 }
 nav {
-    flex-basis: 400px;
-    height: 48px;
-    background-color: blueviolet;
+    flex-basis: 60%;
+    /* height: 48px; */
+   /* background-color: blueviolet; */
 }
 
 footer {
