@@ -209,7 +209,10 @@ main > section:nth-child(even) {
     height: 200px;
 }
 
-/* regole finali */
+
+
+
+/* REGOLE FINALI */
 #hero {
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
@@ -220,7 +223,7 @@ main > section:nth-child(even) {
 /* hero content */
 #hero > div {
     width: 80%;
-    gap: 8px;
+    gap: 16px;
 }
 /* hero content lead */
 #hero > div > p {
