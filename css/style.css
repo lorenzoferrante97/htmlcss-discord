@@ -290,9 +290,10 @@ footer {
     height: 120px;
     filter: invert(100%);
     rotate: 180deg;
-    padding: 0 0 40px;
+    margin: 0 0 40px;
 
 }
 .waves.bottom {
-    padding-top: 40px 0 0;
+    rotate: 0deg;
+    margin: 80px 0 0;
 }
