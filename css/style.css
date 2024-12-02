@@ -207,13 +207,22 @@ main > section:nth-child(even) {
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
     background-size: cover;
+    gap: 80px;
+    padding: 12px 0 80px;
 }
 /* hero content */
 #hero > div {
     width: 80%;
     gap: 8px;
 }
-
+/* hero content lead */
+#hero > div > p {
+    width: 72%;
+}
+.hero-btn-box {
+    gap: 12px;
+}
+/* header */
 header {
     width: 80%;
 }
