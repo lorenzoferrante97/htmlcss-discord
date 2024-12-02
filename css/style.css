@@ -146,7 +146,7 @@ html {
     background-color: bisque;
     width: 80%;
 }
-.logo-box, .btn-box {
+.btn-box {
     flex-basis: 120px;
     /* height: 48px; */
     /* background-color: blue; */
@@ -180,18 +180,6 @@ main > section:nth-child(even) {
     margin: 0 auto;
     background-color: chartreuse;
     gap: 28px;
-}
-
-/* imgs and content into the main sections */
-.section-container > figure, .section-container > div {
-    height: 320px;
-    background-color: darkgreen;
-}
-.section-container > figure {
-    flex-basis: 60%;
-}
-.section-container > div {
-    flex-basis: 40%;
 }
 
 /* styles for last main section */
@@ -250,4 +238,15 @@ nav ul li {
     display: inline-block;
     padding: 16px 8px;
     margin: 0 8px;
+}
+
+/* main sections */
+.section-container > figure {
+    flex-basis: 58%;
+}
+.section-container > div {
+    flex-basis: 42%;
+}
+.section-container > figure > img {
+    max-width: 100%;
 }
