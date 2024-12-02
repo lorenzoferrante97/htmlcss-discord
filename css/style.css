@@ -268,3 +268,14 @@ footer {
 .icon-small {
     width: 20px;
 }
+
+/* secondary navs (footer-top) */
+.footer-nav span {
+    margin-bottom: 8px;
+}
+.footer-nav ul {
+    list-style-type: none;
+}
+.footer-nav ul li {
+    padding: 4px 0;
+}
