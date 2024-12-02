@@ -29,6 +29,22 @@
     align-items: center;
 }
 
+/* regole finali */
+
+nav {
+    flex-basis: 60%;
+    /* height: 48px; */
+   /* background-color: blueviolet; */
+}
+/* nav list */
+nav ul {
+    text-align: center;
+}
+/* nav links */
+nav ul li {
+    display: inline-block;
+}
+
 /* --- codice temporaneo per esercizio --- */
 
 /* header + bottom footer */
@@ -40,11 +56,6 @@ header, #footer-bottom, #footer-top {
     flex-basis: 120px;
     /* height: 48px; */
     /* background-color: blue; */
-}
-nav {
-    flex-basis: 60%;
-    /* height: 48px; */
-   /* background-color: blueviolet; */
 }
 
 footer {
