@@ -34,7 +34,7 @@
 nav {
     flex-basis: 60%;
     /* height: 48px; */
-   /* background-color: blueviolet; */
+    /* background-color: blueviolet; */
 }
 /* nav list */
 nav ul {
@@ -43,6 +43,9 @@ nav ul {
 /* nav links */
 nav ul li {
     display: inline-block;
+
+    padding: 16px 8px;
+    margin: 0 8px;
 }
 
 /* --- codice temporaneo per esercizio --- */
