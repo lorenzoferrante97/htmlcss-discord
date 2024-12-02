@@ -18,6 +18,9 @@
 
     --font-weight-headings: 600;
     --font-weight-body: 400;
+
+    --font-lh-body: 140%;
+    --font-lh-headings: 125%;
 }
 
 /* reset */
