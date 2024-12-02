@@ -211,6 +211,9 @@ nav ul li {
 main > section:nth-child(even) {
     background-color: var(--color-lightgrey);
 }
+main > section:nth-child(odd) {
+    padding: 40px 0;
+}
 /* main section container */
 .section-container {
     width: 80%;
