@@ -1,0 +1,125 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole flex */
+
+.flex {
+    display: flex;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+.main-axis-flex-end {
+    justify-content: flex-end;
+}
+.perfect-center {
+    justify-content: center;
+    align-items: center;
+}
+
+/* --- codice temporaneo per esercizio --- */
+
+/* header + bottom footer */
+header, #footer-bottom, #footer-top {
+    background-color: bisque;
+    width: 80%;
+}
+.logo-box, .btn-box {
+    flex-basis: 120px;
+    height: 48px;
+    background-color: blue;
+}
+nav {
+    flex-basis: 400px;
+    height: 48px;
+    background-color: blueviolet;
+}
+
+footer {
+    background-color: aqua;
+    padding: 40px 0;
+}
+#footer-top > div {
+    flex-basis: 12%;
+    height: 48px;
+    background-color: blueviolet;
+}
+#footer-top .first {
+    flex-basis: 24%;
+}
+
+/* hero */
+#hero {
+    background-color: aquamarine;
+    padding-bottom: 40px;
+    gap: 40px;
+}
+
+/* hero content */
+#hero > div {
+    width: 80%;
+    flex-basis: 280px;
+    background-color: lightsteelblue;
+}
+/* button container into hero content */
+.hero-btn-box {
+    width: 280px;
+    height: 80px;
+    background-color: chocolate;
+}
+
+/* main sections */
+main > section {
+    background-color: khaki;
+    padding: 28px 0;
+}
+main > section:nth-child(even) {
+    background-color: darkkhaki;
+}
+/* main section container */
+.section-container {
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    background-color: chartreuse;
+    gap: 28px;
+}
+
+/* imgs and content into the main sections */
+.section-container > figure, .section-container > div {
+    height: 320px;
+    background-color: darkgreen;
+}
+.section-container > figure {
+    flex-basis: 60%;
+}
+.section-container > div {
+    flex-basis: 40%;
+}
+
+/* styles for last main section */
+.section-container.last > figure, .section-container.last > div {
+    width: 80%;
+}
+.section-container.last > figure {
+    flex-basis: 320px;
+}
+.section-container.last > div {
+    flex-basis: 160px;
+}
+
+.cta-section {
+    height: 200px;
+}
