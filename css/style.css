@@ -6,7 +6,7 @@
     --color-accent: #7289da;
     --color-black: #1e2124;
     --color-grey: #424549;
-    --color-lightgrey: #d3d3d3;
+    --color-lightgrey: #eeeeee;
 
     /* fonts */
     --font-12: 12px;
@@ -104,13 +104,14 @@ html {
 .text-h1 {
     font-size: var(--font-headings-l);
     font-weight: var(--font-weight-headings);
-    margin-bottom: 12px;
     line-height: var(--font-lh-headings);
+    margin-bottom: 12px;
 }
 .text-h2 {
     font-size: var(--font-headings-m);
     font-weight: var(--font-weight-headings);
     line-height: var(--font-lh-headings);
+    margin-bottom: 12px;
 }
 .text-h3 {
     font-size: var(--font-headings-s);
