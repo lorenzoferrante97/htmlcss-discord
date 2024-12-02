@@ -110,6 +110,24 @@ html {
     font-weight: var(--font-weight-headings);
 }
 
+/* buttons style */
+.btn {
+    border-radius: 900px;
+    padding: 8px 16px;
+}
+.btn-primary {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    font-size: var(--font-14);
+    font-weight: var(--font-weight-body);
+}
+.btn-secondary {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-size: var(--font-14);
+    font-weight: var(--font-weight-body);
+}
+
 /* regole finali */
 
 nav {
@@ -129,22 +147,11 @@ nav ul li {
     margin: 0 8px;
 }
 
-/* buttons style */
-.btn {
-    border-radius: 900px;
-    padding: 8px 16px;
-}
-.btn-primary {
-    background-color: var(--color-white);
-    color: var(--color-black);
-    font-size: var(--font-14);
-    font-weight: var(--font-weight-body);
-}
-.btn-secondary {
-    background-color: var(--color-black);
-    color: var(--color-white);
-    font-size: var(--font-14);
-    font-weight: var(--font-weight-body);
+/* hero content */
+#hero > div {
+    width: 80%;
+    flex-basis: 280px;
+    background-color: lightsteelblue;
 }
 
 /* --- codice temporaneo per esercizio --- */
@@ -178,13 +185,6 @@ footer {
     background-color: aquamarine;
     padding-bottom: 40px;
     gap: 40px;
-}
-
-/* hero content */
-#hero > div {
-    width: 80%;
-    flex-basis: 280px;
-    background-color: lightsteelblue;
 }
 /* button container into hero content */
 .hero-btn-box {
