@@ -56,6 +56,32 @@ html {
     align-items: center;
 }
 
+/* regole colori */
+.text-white {
+    color: var(--color-white);
+}
+.text-black {
+    color: var(--color-black);
+}
+.text-body {
+    color: var(--color-grey);
+}
+.text-accent {
+    color: var(--color-accent);
+}
+.bg-white {
+    background-color: var(--color-white);
+}
+.bg-grey {
+    background-color: var(--color-lightgrey);
+}
+.bg-accent {
+    background-color: var(--color-accent);
+}
+.bg-black {
+    background-color: var(--color-black);
+}
+
 /* regole finali */
 
 nav {
