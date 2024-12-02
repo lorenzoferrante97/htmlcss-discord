@@ -161,11 +161,6 @@ html {
     background-color: bisque;
     width: 80%;
 }
-
-footer {
-    background-color: aqua;
-    padding: 40px 0;
-}
 #footer-top > div {
     flex-basis: 12%;
     height: 48px;
@@ -247,6 +242,15 @@ main > section:nth-child(even) {
 }
 
 /* cta section */
+.section-container.cta-section {
+    margin-bottom: 40px;
+}
 .section-container.cta-section > div {
     margin-bottom: 28px;
+}
+
+/* footer */
+footer {
+    background-color: var(--color-black);
+    padding: 40px 0;
 }
