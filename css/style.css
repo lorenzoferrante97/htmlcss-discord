@@ -125,6 +125,7 @@ html {
     font-size: var(--font-headings-s);
     font-weight: var(--font-weight-headings);
     line-height: var(--font-lh-headings);
+    margin-bottom: 8px;
 }
 .text-center {
     text-align: center;
@@ -251,4 +252,19 @@ footer {
 /* top + bottom footer */
 #footer-bottom, #footer-top {
     width: 80%;
+}
+/* rows of first column in top-footer */
+.language-selector, .social-icons-container {
+    margin: 8px 0;
+}
+.language-selector {
+    gap: 4px;
+}
+.social-icons-container {
+    gap: 12px;
+}
+
+/* small icons */
+.icon-small {
+    width: 20px;
 }
