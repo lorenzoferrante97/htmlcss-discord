@@ -208,9 +208,6 @@ nav ul li {
 }
 
 /* main sections */
-main > section {
-    padding: 40px 0;
-}
 main > section:nth-child(even) {
     background-color: var(--color-lightgrey);
 }
@@ -285,4 +282,17 @@ footer {
 #footer-bottom {
     padding: 12px 0;
     border-top: 1px solid var(--color-grey);
+}
+
+/* waves */
+.waves {
+    background-image: url(../img/wave.svg);
+    height: 120px;
+    filter: invert(100%);
+    rotate: 180deg;
+    padding: 0 0 40px;
+
+}
+.waves.bottom {
+    padding-top: 40px 0 0;
 }
