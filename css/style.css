@@ -33,6 +33,14 @@
 button {
     border: none;
 }
+/* reset img */
+img {
+    display: block;
+    max-width: 100%;
+}
+figure {
+    display: inline-block;
+}
 
 html {
     font-family: "Poppins", sans-serif;
@@ -139,6 +147,12 @@ html {
     font-size: var(--font-14);
     font-weight: var(--font-weight-body);
 }
+.btn-accent {
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    font-size: var(--font-14);
+    font-weight: var(--font-weight-body);
+}
 
 /* --- codice temporaneo per esercizio --- */
 
@@ -221,9 +235,6 @@ main > section:nth-child(even) {
 .section-container > div {
     flex-basis: 42%;
 }
-.section-container > figure > img {
-    max-width: 100%;
-}
 
 /* styles for last main section */
 .section-container.last figure {
@@ -233,4 +244,9 @@ main > section:nth-child(even) {
     flex-basis: auto;
     width: 100%;
     margin: 0 auto;
+}
+
+/* cta section */
+.section-container.cta-section > div {
+    margin-bottom: 28px;
 }
