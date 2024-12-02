@@ -9,12 +9,12 @@
     --color-lightgrey: #d3d3d3;
 
     /* fonts */
-    --font-xs: 12px;
-    --font-small: 14px;
-    --font-default: 16px;
-    --font-h1: 40px;
-    --font-h2: 32px;
-    --font-h3: 24px;
+    --font-12: 12px;
+    --font-14: 14px;
+    --font-16: 16px;
+    --font-headings-l: 40px;
+    --font-headings-m: 32px;
+    --font-headings-s: 24px;
 
     --font-weight-headings: 600;
     --font-weight-body: 400;
@@ -80,6 +80,31 @@ html {
 }
 .bg-black {
     background-color: var(--color-black);
+}
+/* regole font */
+.text-default {
+    font-size: var(--font-16);
+    font-weight: var(--font-weight-body);
+}
+.text-s {
+    font-size: var(--font-14);
+    font-weight: var(--font-weight-body);
+}
+.text-xs {
+    font-size: var(--font-12);
+    font-weight: var(--font-weight-body);
+}
+.text-h1 {
+    font-size: var(--font-headings-l);
+    font-weight: var(--font-weight-headings);
+}
+.text-h2 {
+    font-size: var(--font-headings-m);
+    font-weight: var(--font-weight-headings);
+}
+.text-h3 {
+    font-size: var(--font-headings-s);
+    font-weight: var(--font-weight-headings);
 }
 
 /* regole finali */
