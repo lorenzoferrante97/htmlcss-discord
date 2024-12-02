@@ -91,6 +91,7 @@ html {
 .text-default {
     font-size: var(--font-16);
     font-weight: var(--font-weight-body);
+    line-height: var(--font-lh-body);
 }
 .text-s {
     font-size: var(--font-14);
@@ -104,14 +105,17 @@ html {
     font-size: var(--font-headings-l);
     font-weight: var(--font-weight-headings);
     margin-bottom: 12px;
+    line-height: var(--font-lh-headings);
 }
 .text-h2 {
     font-size: var(--font-headings-m);
     font-weight: var(--font-weight-headings);
+    line-height: var(--font-lh-headings);
 }
 .text-h3 {
     font-size: var(--font-headings-s);
     font-weight: var(--font-weight-headings);
+    line-height: var(--font-lh-headings);
 }
 .text-center {
     text-align: center;
