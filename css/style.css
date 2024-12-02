@@ -100,6 +100,7 @@ html {
 .text-h1 {
     font-size: var(--font-headings-l);
     font-weight: var(--font-weight-headings);
+    margin-bottom: 12px;
 }
 .text-h2 {
     font-size: var(--font-headings-m);
@@ -108,6 +109,9 @@ html {
 .text-h3 {
     font-size: var(--font-headings-s);
     font-weight: var(--font-weight-headings);
+}
+.text-center {
+    text-align: center;
 }
 
 /* buttons style */
@@ -150,8 +154,7 @@ nav ul li {
 /* hero content */
 #hero > div {
     width: 80%;
-    flex-basis: 280px;
-    background-color: lightsteelblue;
+    gap: 8px;
 }
 
 /* --- codice temporaneo per esercizio --- */
@@ -185,12 +188,6 @@ footer {
     background-color: aquamarine;
     padding-bottom: 40px;
     gap: 40px;
-}
-/* button container into hero content */
-.hero-btn-box {
-    width: 280px;
-    height: 80px;
-    background-color: chocolate;
 }
 
 /* main sections */
