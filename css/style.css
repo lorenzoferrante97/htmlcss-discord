@@ -165,23 +165,6 @@ footer {
     flex-basis: 24%;
 }
 
-/* main sections */
-main > section {
-    background-color: khaki;
-    padding: 28px 0;
-}
-main > section:nth-child(even) {
-    background-color: darkkhaki;
-}
-/* main section container */
-.section-container {
-    width: 80%;
-    height: 600px;
-    margin: 0 auto;
-    background-color: chartreuse;
-    gap: 28px;
-}
-
 /* styles for last main section */
 .section-container.last > figure, .section-container.last > div {
     width: 80%;
@@ -241,6 +224,17 @@ nav ul li {
 }
 
 /* main sections */
+main > section {
+    padding: 40px 0;
+}
+main > section:nth-child(even) {
+    background-color: var(--color-lightgrey);
+}
+/* main section container */
+.section-container {
+    width: 80%;
+    margin: 0 auto;
+}
 .section-container > figure {
     flex-basis: 58%;
 }
