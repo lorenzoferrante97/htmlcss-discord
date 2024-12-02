@@ -237,6 +237,9 @@ main > section:nth-child(odd) {
 }
 
 /* cta section */
+main > section:last-child {
+    background-color: var(--color-lightgrey);
+}
 .section-container.cta-section {
     margin-bottom: 40px;
 }
