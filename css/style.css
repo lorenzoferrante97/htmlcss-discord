@@ -187,7 +187,7 @@ footer {
     gap: 16px;
 }
 /* hero content lead & last main section p */
-#hero > div > p, .section-container.last p {
+#hero > div > p {
     width: 72%;
 }
 .hero-btn-box {
