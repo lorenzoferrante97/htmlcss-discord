@@ -147,11 +147,6 @@ html {
     background-color: bisque;
     width: 80%;
 }
-.btn-box {
-    flex-basis: 120px;
-    /* height: 48px; */
-    /* background-color: blue; */
-}
 
 footer {
     background-color: aqua;
@@ -165,11 +160,6 @@ footer {
 #footer-top .first {
     flex-basis: 24%;
 }
-
-.cta-section {
-    height: 200px;
-}
-
 
 
 
